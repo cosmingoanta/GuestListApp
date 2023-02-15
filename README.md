@@ -1,18 +1,18 @@
 # GuestListApp
-A small project that manages a guest list for an event.
+A small project that manages a guest list for an event. The backend is basically compiled of 2 ArrayLists, a main guest list and a wait list.
 The working functionalitites of the app are:
 
-help         - Afiseaza aceasta lista de comenzi
-add          - Adauga o noua persoana (inscriere)
-check        - Verifica daca o persoana este inscrisa la eveniment
-remove       - Sterge o persoana existenta din lista
-update       - Actualizeaza detaliile unei persoane
-guests       - Lista de persoane care participa la eveniment
-waitlist     - Persoanele din lista de asteptare
-available    - Numarul de locuri libere
-guests_no    - Numarul de persoane care participa la eveniment
-waitlist_no  - Numarul de persoane din lista de asteptare
-subscribe_no - Numarul total de persoane inscrise
-search       - Cauta toti invitatii conform sirului de caractere introdus
-quit         - Inchide aplicatia
+help - Shows the command list
+add - Add a new Guest
+check - Check if a Guest is already added
+remove - Delete an existing Guest
+update - Update Guest info
+guests - The current Guest list
+waitlist - The current waiting list
+available - Number of available spots
+guests_no - Number of people participating at the event
+waitlist_no - Number of people in the wating list
+subscribe_no - Total number of guests invited
+search - Search the guestlist based on partial info
+quit - Close the app
 
